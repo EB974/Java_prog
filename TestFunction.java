@@ -9,7 +9,8 @@ public class TestFunction {
                 new Personne(10, "toto"),
                 new Personne(20, "titi"),
                 new Personne(30, "tata"),
-                new Personne(40, "tutu")
+                new Personne(40, "tutu"),
+		new Personne(14, "toutou")
         );
 
         
