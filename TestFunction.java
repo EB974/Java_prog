@@ -8,7 +8,7 @@ public class TestFunction {
         List<Personne> lPersonne = Arrays.asList(
                 new Personne(10, "toto"),
                 new Personne(20, "titi"),
-                new Personne(30, "tata"),
+                new Personne(25, "tata"),
                 new Personne(40, "tutu"),
 		new Personne(14, "toutou")
         );
@@ -36,7 +36,7 @@ public class TestFunction {
         List<Integer> ls = new ArrayList<>();
         for (Personne p : list) {
             ls.add(func.apply(p));
-            //func.apply(p) retournera ici l'âge multiplié par 2 de l'objet Personne
+            //func.apply(p) retournera ici l'Ã¢ge multipliÃ© par 2 de l'objet Personne
         }
         return ls;      
     }
